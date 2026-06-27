@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV — Austin Moss</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav">
+        <a class="brand" href="index.html">Austin Moss</a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="research.html">Research</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="cv.html" class="active">CV</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Curriculum Vitae</h1>
+
+    <!-- Easiest approach: drop your CV PDF at assets/cv.pdf and link it below. -->
+    <p>
+      <a href="assets/cv.pdf" target="_blank" rel="noopener">Download my CV (PDF)</a>
+      &nbsp;·&nbsp; Last updated June 2026.
+    </p>
+
+    <p class="title-line">
+      Tip: keep a PDF at <code>assets/cv.pdf</code> and just replace that file when
+      your CV changes — the link above always points to the latest version.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      &copy; <span id="year">2026</span> Austin Moss.
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

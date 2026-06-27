@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/aumo9275/Library/CloudStorage/Dropbox/website/austinmoss.me status)",
+      "WebFetch(domain:www.tonycookson.com)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git init *)",
+      "Bash(git symbolic-ref *)",
+      "Bash(git add *)",
+      "Bash(git -c user.name='Austin Moss' -c user.email='austin.moss@colorado.edu' commit -q -m \"Initial academic website scaffold\")"
+    ]
+  }
+}
