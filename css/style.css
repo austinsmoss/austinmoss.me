@@ -125,6 +125,11 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
 .course { margin: 0 0 1.2em; }
 .course .course-code { font-weight: 600; }
 
+/* ---- In the News list ---- */
+ul.news { list-style: none; margin: 0.2em 0 0; padding: 0; }
+ul.news li { padding: 7px 0; border-bottom: 1px solid var(--line); }
+ul.news li:last-child { border-bottom: none; }
+
 /* ---- Footer ---- */
 .site-footer {
   border-top: 1px solid var(--line);
